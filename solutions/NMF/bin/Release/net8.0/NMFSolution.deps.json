@@ -1,0 +1,132 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NMFSolution/1.0.0": {
+        "dependencies": {
+          "NMF-Basics": "2.0.169",
+          "NMF-Expressions": "2.0.169",
+          "NMF-Layering": "2.0.169"
+        },
+        "runtime": {
+          "NMFSolution.dll": {}
+        }
+      },
+      "NMF-Basics/2.0.169": {
+        "dependencies": {
+          "NMF-Expressions": "2.0.169",
+          "NMF-Repository": "2.0.169"
+        }
+      },
+      "NMF-Collections/2.0.169": {
+        "dependencies": {
+          "NMF-Expressions": "2.0.169"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NMF.Collections.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "NMF-Expressions/2.0.169": {
+        "runtime": {
+          "lib/netstandard2.0/NMF.Expressions.Linq.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/NMF.Expressions.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "NMF-Layering/2.0.169": {
+        "runtime": {
+          "lib/netstandard2.0/NMF.Layering.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "NMF-Repository/2.0.169": {
+        "dependencies": {
+          "NMF-Collections": "2.0.169",
+          "NMF-Expressions": "2.0.169",
+          "NMF-Utilities": "2.0.169"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NMF.Models.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netstandard2.0/NMF.Serialization.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "NMF-Utilities/2.0.169": {
+        "runtime": {
+          "lib/netstandard2.0/NMF.Utilities.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NMFSolution/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NMF-Basics/2.0.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W6NNSl8m5FQyNu0OUhjEKsXtaDE7yZ49L1vHt1oN0SWLq3BVKKSzKn8/L66rZEWcHXAw7TDdfZLjWMNdPdMX4Q==",
+      "path": "nmf-basics/2.0.169",
+      "hashPath": "nmf-basics.2.0.169.nupkg.sha512"
+    },
+    "NMF-Collections/2.0.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pn47uRIPnAUnk7ybhCxiLhCf5KJpkQwKZW+12q05yFtmK/+UF3qYWDaWsOcwfpXr2fbA4Yvz7J04wnEWfFo4Qw==",
+      "path": "nmf-collections/2.0.169",
+      "hashPath": "nmf-collections.2.0.169.nupkg.sha512"
+    },
+    "NMF-Expressions/2.0.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Oi6opFsBwNHAnoRswe4ZLdWuWEHI9NeQDaHLcEn9QCvE0nunCIam1ENz/Bb9LJqIZfqP5oPvYRSXdfD4z/D6Q==",
+      "path": "nmf-expressions/2.0.169",
+      "hashPath": "nmf-expressions.2.0.169.nupkg.sha512"
+    },
+    "NMF-Layering/2.0.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UCGBxJJis3wiHFBxQ454zDL8+M1/gtsYActCMXuBtmE+ArS52NM3bQMxrjiSv0KuLuhqFdHaeTTVbOCu6QMDPg==",
+      "path": "nmf-layering/2.0.169",
+      "hashPath": "nmf-layering.2.0.169.nupkg.sha512"
+    },
+    "NMF-Repository/2.0.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pPA8dyjTlZtuiwvirpXVXIvKwGbaXsK0jrMlwhKIke63mB35lt6b1Kg6DtmsqDrt7IMxuPlDo088LhHTBckqLA==",
+      "path": "nmf-repository/2.0.169",
+      "hashPath": "nmf-repository.2.0.169.nupkg.sha512"
+    },
+    "NMF-Utilities/2.0.169": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AhnO+u407fDf6n/MLZz8Xj9xvSG3S/7aTsgjHUFJHJnXlAofaWVKKvbyfucagPQNpB8OjUKty7lhId4bzJQn4w==",
+      "path": "nmf-utilities/2.0.169",
+      "hashPath": "nmf-utilities.2.0.169.nupkg.sha512"
+    }
+  }
+}

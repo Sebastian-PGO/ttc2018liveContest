@@ -1,3 +1,0 @@
-DependencyGraph ::= Component*;
-Component;
-rel Component.From* <-> Component.To*;

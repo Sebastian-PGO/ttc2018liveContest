@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "qaP9sb7nFEY/Y7K7wAlcZ/8NZ9v7aTF8JDBrxtLv5hh7JiI7YbfzmdAMTVL1zyTAf+sqFcSiHBff8UPxx/Fr1g==",
+  "success": true,
+  "projectFilePath": "/home/sebasatian/Repos/ttc2018liveContest/solutions/NMF/NMF.csproj",
+  "expectedPackageFiles": [
+    "/home/sebasatian/.nuget/packages/nmf-basics/2.0.169/nmf-basics.2.0.169.nupkg.sha512",
+    "/home/sebasatian/.nuget/packages/nmf-collections/2.0.169/nmf-collections.2.0.169.nupkg.sha512",
+    "/home/sebasatian/.nuget/packages/nmf-expressions/2.0.169/nmf-expressions.2.0.169.nupkg.sha512",
+    "/home/sebasatian/.nuget/packages/nmf-layering/2.0.169/nmf-layering.2.0.169.nupkg.sha512",
+    "/home/sebasatian/.nuget/packages/nmf-repository/2.0.169/nmf-repository.2.0.169.nupkg.sha512",
+    "/home/sebasatian/.nuget/packages/nmf-utilities/2.0.169/nmf-utilities.2.0.169.nupkg.sha512"
+  ],
+  "logs": []
+}

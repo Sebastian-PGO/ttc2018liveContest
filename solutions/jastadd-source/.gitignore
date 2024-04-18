@@ -1,8 +1,0 @@
-/build/
-events.txt
-
-# src
-/src/gen/java/
-/src/gen/jastadd/*
-!/src/gen/jastadd/.gitkeep
-/src/gen-res/

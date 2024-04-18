@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NMFSolution</id>
+    <version>1.0.0</version>
+    <authors>NMFSolution</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="3d4d635a0f0f9fabfe33aac6e18d3e7dad8a7ebd" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="NMF-Basics" version="2.0.169" exclude="Build,Analyzers" />
+        <dependency id="NMF-Expressions" version="2.0.169" exclude="Build,Analyzers" />
+        <dependency id="NMF-Layering" version="2.0.169" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/home/sebasatian/Repos/ttc2018liveContest/solutions/NMF/bin/Debug/net8.0/NMFSolution.runtimeconfig.json" target="lib/net8.0/NMFSolution.runtimeconfig.json" />
+    <file src="/home/sebasatian/Repos/ttc2018liveContest/solutions/NMF/bin/Debug/net8.0/NMFSolution.dll" target="lib/net8.0/NMFSolution.dll" />
+  </files>
+</package>
