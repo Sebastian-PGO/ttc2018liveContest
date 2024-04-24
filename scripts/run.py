@@ -140,8 +140,29 @@ def visualize():
     Visualizes the benchmark results
     """
     clean_dir("diagrams")
-    set_working_directory("reporting")
-    subprocess.check_call(["Rscript", "visualize.R", "../config/reporting.json"])
+    set_working_directory("diagrams")
+    
+    import numpy as np
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+
+    data = pd.read_csv(os.path.join(BASE_DIRECTORY, 'output', 'output.csv'), sep=';')
+
+    metrics = ['Time', 'Memory', 'Elements']
+    for metric in metrics:
+        metric_data = data[data['MetricName'] == metric]
+        plt.figure(figsize=(10, 6))
+        sns.lineplot(data=metric_data, x='Tool', y='MetricValue', hue='Tool', palette='tab10')
+        plt.title(f'{metric} Comparison')
+        plt.xlabel('Tool')
+        plt.ylabel(metric)
+        plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15), ncol=2)
+        plt.tight_layout()
+        plt.savefig(f'{metric}_comparison.pdf')
+    plt.show()
+
+
 
 
 def check_results(conf, expected_lines):
