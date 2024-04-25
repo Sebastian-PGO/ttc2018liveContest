@@ -153,14 +153,20 @@ def visualize():
     for metric in metrics:
         metric_data = data[data['MetricName'] == metric]
         plt.figure(figsize=(10, 6))
-        sns.lineplot(data=metric_data, x='Tool', y='MetricValue', hue='Tool', palette='tab10')
-        plt.title(f'{metric} Comparison')
-        plt.xlabel('Tool')
+        plot = sns.lineplot(data=metric_data, x='ChangeSet', y='MetricValue', hue='Tool', palette='tab10')
+        plt.title(f'{metric} per ChangeSet')
+        plt.xlabel('ChangeSet')
         plt.ylabel(metric)
-        plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15), ncol=2)
-        plt.tight_layout()
-        plt.savefig(f'{metric}_comparison.pdf')
+        plt.legend(loc='lower right')
+        plot.yaxis.set_major_locator(plt.MaxNLocator(10))  # Reduces the number of ticks on the y-axis
+        plt.xticks(rotation=45)  # Rotates x-axis labels
+        plt.yticks(rotation=45)  # Rotates y-axis labels
+        plt.tight_layout()  # Adjusts subplot params so that the subplot fits into the figure area
+        plt.savefig(f'{metric}_per_ChangeSet.pdf')
     plt.show()
+
+
+
 
 
 

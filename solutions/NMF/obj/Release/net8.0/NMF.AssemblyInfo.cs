@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NMFSolution")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d4d635a0f0f9fabfe33aac6e18d3e7dad8a7ebd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+752bb0a95c52f632c32c3c90f745ad0a52c8bc96")]
 [assembly: System.Reflection.AssemblyProductAttribute("NMFSolution")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NMFSolution")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

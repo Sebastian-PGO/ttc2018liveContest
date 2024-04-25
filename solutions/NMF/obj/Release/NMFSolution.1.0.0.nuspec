@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>NMFSolution</authors>
     <description>Package Description</description>
-    <repository type="git" commit="3d4d635a0f0f9fabfe33aac6e18d3e7dad8a7ebd" />
+    <repository type="git" commit="752bb0a95c52f632c32c3c90f745ad0a52c8bc96" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="NMF-Basics" version="2.0.169" exclude="Build,Analyzers" />
